@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DLL Math</name>
+    </assembly>
+    <members>
+        <member name="T:DLL_Math.MathDLL">
+            <summary>
+            Classe para calculos
+            </summary>
+        </member>
+        <member name="M:DLL_Math.MathDLL.subtracaoEntreDoisNumeros(System.String,System.String)">
+            <summary>
+            Metodo de Subtracao entre dois numeros.
+            </summary>
+            <param name="value1">String a ser inserida (string)</param>
+            <param name="value2">String a ser inserida (string)</param>
+            <returns>Subtracao de todos os numeros listados(float)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.somaEntreDoisNumeros(System.String,System.String)">
+            <summary>
+            Metodo de Soma entre dois numeros.
+            </summary>
+            <param name="value1">String a ser inserida (string)</param>
+            <param name="value2">String a ser inserida (string)</param>
+            <returns>Soma de todos os numeros listados(float)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.multiplicacaoEntradaString(System.String)">
+            <summary>
+            Metodo de multiplicacao entre varios numeros.
+            </summary>
+            <param name="value">CSV String a ser inserida (string)</param>
+            <returns>Multiplicacao de todos os numeros listados (float)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.multiplicacaoEntradaArray(System.String[])">
+            <summary>
+            Metodo de multiplicacao entre varios numeros.
+            </summary>
+            <param name="value">CSV String a ser inserida (string)</param>
+            <returns>Multiplicacao de todos os numeros listados (float)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.multiplicacaoDoisNumeros(System.String,System.String)">
+            <summary>
+            Metodo de multiplicacao entre dois numeros.
+            </summary>
+            <param name="value1">Primeiro Numero (string)</param>
+            /// <param name="value2">Segundo Numero (string)</param>
+            <returns>Multiplicacao de todos os numeros listados (float)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.divisao(System.String,System.String)">
+            <summary>
+            Metodo de divisao entre dois numeros.
+            </summary>
+            <param name="dividendo">Valor a ser dividido (string)</param>
+            <param name="divisor">Valor a dividir (string)</param>
+            <returns>Valor da divisao entre dividendo e divisor (float)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.ordenaArrayEntradaArray(System.String[])">
+            <summary>
+            Ordena um conjunto de numeros.
+            </summary>
+            <param name="value">CSV String com os numeros a serem ordenados (string)</param>
+            <returns>CSV com os numeros ordenados (string)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.ordenaArrayEntradaString(System.String)">
+            <summary>
+            Ordena um conjunto de numeros.
+            </summary>
+            <param name="value">CSV String com os numeros a serem ordenados (string)</param>
+            <returns>CSV com os numeros ordenados (string)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.ordenaInverteArrayEntradaString(System.String)">
+            <summary>
+            Ordena um conjunto de numeros e os inverte depois.
+            </summary>
+            <param name="value">CSV String com os numeros a serem ordenados e invertidos (string)</param>
+            <returns>CSV com os numeros ordenados e invertidos (string)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.ordenaInverteArrayEntradaArray(System.String[])">
+            <summary>
+            Ordena um conjunto de numeros e os inverte depois.
+            </summary>
+            <param name="value">CSV String com os numeros a serem ordenados e invertidos (string)</param>
+            <returns>CSV com os numeros ordenados e invertidos (string)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.somaArrayEntradaString(System.String)">
+            <summary>
+            Soma um conjunto de numeros.
+            </summary>
+            <param name="value">CSV String com os numeros a serem ordenados (string)</param>
+            <returns>Resultado da soma de todos os valores (string)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.somaArrayEntradaArray(System.String[])">
+            <summary>
+            Soma um conjunto de numeros.
+            </summary>
+            <param name="value">CSV String com os numeros a serem ordenados (string)</param>
+            <returns>Resultado da soma de todos os valores (string)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.mediaArrayEntradaString(System.String)">
+            <summary>
+            Media de um conjunto de numeros.
+            </summary>
+            <param name="value">CSV String com os numeros a serem ordenados (string)</param>
+            <returns>Resultado da media de todos os valores (string)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.mediaArrayEntradaArray(System.String[])">
+            <summary>
+            Media de um conjunto de numeros.
+            </summary>
+            <param name="value">CSV String com os numeros a serem ordenados (string)</param>
+            <returns>Resultado da media de todos os valores (string)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.porcentagemDeUmValor(System.String,System.String)">
+            <summary>
+            Porcentagem de um numero em relacao a outro.
+            </summary>
+            <param name="porcentagem">Porcentagem do valor (string)</param>
+            <param name="valor">Valor total a ser calculado a porcentagem (string)</param>
+            <returns>Valor calculado da porcentagem (porcentagem/100)*valor (string)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.restoDivisao(System.String,System.String)">
+            <summary>
+            Metodo de fatorial de um numero.
+            </summary>
+            <param name="dividendo">Valor a ser dividido (string)</param>
+            <param name="divisor">Valor a dividir (string)</param>
+            <returns>Resto da divisao entre dois numeros (float)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.raizQuadrada(System.String)">
+            <summary>
+            Metodo de raiz quadrada de um numero.
+            </summary>
+            <param name="value">Valor a ser calculado (string)</param>
+            <returns>Raiz quadrada do numero(double)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.fatorial(System.String)">
+            <summary>
+            Metodo de fatorial de um numero.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Fatorial do numero (float)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.fibonacci(System.String)">
+            <summary>
+            Metodo de fibonacci.
+            </summary>
+            <param name="value">Numero de iteracoes fibonacci (string)</param>
+            <returns>Resultado do calculo das iteracoes(int)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.numeroPar(System.String)">
+            <summary>
+            Metodo de verificacao de numero para ver se e par ou impar.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>True ou False (bool)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.numeroPrimo(System.String)">
+            <summary>
+            Metodo de verificacao de numero para ver se e primo.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>True ou False (bool)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.arredondaNum(System.String)">
+            <summary>
+            Metodo de arredondamento de numero para o inteiro mais proximo.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Numero arredondado (decimal)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.log(System.String)">
+            <summary>
+            Metodo de calculo de logaritmo de um num.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Valor do log (double)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.logBase(System.String,System.String)">
+            <summary>
+            Metodo de calculo de logaritmo com base.
+            </summary>
+            <param name="value">Numero (string)</param>
+            /// <param name="baseValue">Numero da base (string)</param>
+            <returns>Valor do log (double)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.maiorNumFloat(System.String,System.String)">
+            <summary>
+            Metodo de comparacao entre dois numeros.
+            </summary>
+            <param name="value1">Primeiro Numero (string)</param>
+            /// <param name="value2">Segundo Numero (string)</param>
+            <returns>Maior numero (float)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.menorNumFloat(System.String,System.String)">
+            <summary>
+            Metodo de comparacao entre dois numeros.
+            </summary>
+            <param name="value1">Primeiro Numero (string)</param>
+            /// <param name="value2">Segundo Numero (string)</param>
+            <returns>Menor numero (float)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.maiorNumEntradaString(System.String)">
+            <summary>
+            Metodo de comparacao entre dois numeros inteiros para ver o maior deles.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Maior numero (int32)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.maiorNumEntradaArray(System.String[])">
+            <summary>
+            Metodo de comparacao entre dois numeros inteiros para ver o maior deles.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Maior numero (int32)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.menorNumEntradaString(System.String)">
+            <summary>
+            Metodo de comparacao entre numeros inteiros em padrao CSV para ver o menor deles.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Menor numero (int32)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.menorNumEntradaArray(System.String[])">
+            <summary>
+            Metodo de comparacao entre numeros inteiros em padrao CSV para ver o menor deles.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Menor numero (int32)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.anguloCosseno(System.String)">
+            <summary>
+            Metodo de calculo de Angulo do Cosseno.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Valor do calculo do angulo do Cosseno (double)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.anguloSeno(System.String)">
+            <summary>
+            Metodo de calculo de Angulo do Seno.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Valor do calculo do angulo do Seno (double)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.anguloTangente(System.String)">
+            <summary>
+            Metodo de calculo de Angulo do Tangente.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Valor do calculo do angulo da Tangente (double)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.cosseno(System.String)">
+            <summary>
+            Metodo de calculo de Cosseno.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Valor do calculo do Cosseno (double)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.seno(System.String)">
+            <summary>
+            Metodo de calculo de Seno.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Valor do calculo do Seno (double)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.tangente(System.String)">
+            <summary>
+            Metodo de calculo de Tangente.
+            </summary>
+            <param name="value">Numero (string)</param>
+            <returns>Valor do calculo da Tangente (double)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.potencia(System.String,System.String)">
+            <summary>
+            Metodo de calculo de potencia base e expoente.
+            </summary>
+            <param name="baseV">Base (string)</param>
+            /// <param name="expoente">Expoente (string)</param>
+            <returns>Valor do calculo da potencia (double)</returns>
+        </member>
+        <member name="M:DLL_Math.MathDLL.raiz(System.String,System.String)">
+            <summary>
+            Metodo de calculo de raiz.
+            </summary>
+            <param name="indice">Base (string)</param>
+            /// <param name="radicando">Expoente (string)</param>
+            <returns>Valor do calculo da raiz (double)</returns>
+        </member>
+    </members>
+</doc>
